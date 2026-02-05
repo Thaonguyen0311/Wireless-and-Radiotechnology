@@ -1,6 +1,5 @@
 % A2: Filtering a multi-tone signal (beginner version)
 
- 
 
 clear; close all; clc;
 
@@ -60,9 +59,9 @@ exportgraphics(gcf, 'A2_before.png', 'Resolution', 200);
 
 %% 4) Case 1: Get ~500 Hz using LPF (cutoff between 500 and 600)
 
-cutoff = 550;                     % Hz
+cutoff = 510;                     % Hz
 
-y500 = lowpass(Vin, cutoff, Fs);  % LPF
+y500 = lowpass(Vin, cutoff, Fs, "Steepness",0.99, "StopbandAttenuation",80);  % LPF
 
  
 
@@ -92,9 +91,9 @@ exportgraphics(gcf, 'A2_after_500.png', 'Resolution', 200);
 
 %% 5) Case 2: Get ~800 Hz using HPF (cutoff between 700 and 800)
 
-cutoff = 750;                      % Hz
+cutoff = 780;                      % Hz
 
-y800 = highpass(Vin, cutoff, Fs);  % HPF
+y800 = highpass(Vin, cutoff, Fs,"Steepness",0.99,"StopbandAttenuation",80);  % HPF
 
  
 
@@ -124,9 +123,9 @@ exportgraphics(gcf, 'A2_after_800.png', 'Resolution', 200);
 
 %% 6) Case 3: Get ~600 Hz using BPF (between 500 and 700)
 
-bp1 = 550; bp2 = 650;                   % Hz
+bp1 = 580; bp2 = 620;                   % Hz
 
-y600 = bandpass(Vin, [bp1 bp2], Fs);    % BPF
+y600 = bandpass(Vin, [bp1 bp2], Fs,"Steepness",0.99);    % BPF
 
  
 
@@ -156,9 +155,9 @@ exportgraphics(gcf, 'A2_after_600.png', 'Resolution', 200);
 
 %% 7) Case 4: Get ~700 and ~800 using HPF (cutoff between 600 and 700)
 
-cutoff = 650;
+cutoff = 680;
 
-y700_800 = highpass(Vin, cutoff, Fs);
+y700_800 = highpass(Vin, cutoff, Fs,"Steepness",0.99);
 
  
 
