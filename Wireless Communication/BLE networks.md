@@ -156,9 +156,9 @@ Although modern devices often use randomized MAC addresses, privacy risks still 
 
 
 ### 5.4 Writeable Generic Attribute Profile (GATT)
+<img src="https://github.com/user-attachments/assets/b8970fef-9db8-4a04-9fa7-516a75cd0004" width="300"/>
 
-![GATT Example 1](https://github.com/user-attachments/assets/b8970fef-9db8-4a04-9fa7-516a75cd0004)  
-![GATT Example 2](https://github.com/user-attachments/assets/4c6747d7-4c19-4339-a715-3c60f509ccc3)
+<img src="https://github.com/user-attachments/assets/4c6747d7-4c19-4339-a715-3c60f509ccc3" width="300"/>
 
 An example device (Tapo Smart IoT plug) exposed a vendor-specific GATT characteristic (UUID: 0x8883) with write permissions.
 
