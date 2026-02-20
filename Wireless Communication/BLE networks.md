@@ -2,10 +2,9 @@
 
 ## 📷 Scanning Results
 
-![BLE Scan 1](https://github.com/user-attachments/assets/29a64134-d5a7-492a-8edb-ce5446f1d2c3)  
-![BLE Scan 2](https://github.com/user-attachments/assets/d914082d-d473-4ad0-8c9a-8b4aee03bdd4)
+<img src="https://github.com/user-attachments/assets/29a64134-d5a7-492a-8edb-ce5446f1d2c3" width="300"/>
 
----
+<img src="https://github.com/user-attachments/assets/d914082d-d473-4ad0-8c9a-8b4aee03bdd4" width="300"/>
 
 ## 1. Relationship Between RSSI and Estimated Distance
 
@@ -26,7 +25,6 @@ However, the relationship is not perfectly linear:
 
 A difference of only 1 dBm results in noticeable variation in estimated distance due to the logarithmic nature of signal attenuation.
 
----
 
 ## 2. Number and Types of BLE Devices
 
@@ -51,8 +49,6 @@ This suggests that most detected devices are:
 - IoT devices  
 - Background BLE advertisers  
 
----
-
 ## 3. Patterns and Inconsistencies
 
 ### 3.1 RSSI Fluctuation
@@ -65,8 +61,6 @@ Possible reasons:
 - Human movement  
 - Antenna orientation  
 - WiFi interference (2.4 GHz band overlap)  
-
----
 
 ### 3.2 Advertising Interval Differences
 
@@ -88,8 +82,6 @@ This reflects different design priorities:
 - Smartphones → moderate advertising interval  
 - IoT sensors → long interval for battery efficiency  
 
----
-
 ## 4. Environmental Impact Factors
 
 ### 4.1 Transmission Power
@@ -102,7 +94,6 @@ Two devices at similar distances may show different RSSI values due to:
 - Manufacturer configuration  
 - Power-saving modes  
 
----
 
 ### 4.2 Physical Obstructions
 
@@ -115,7 +106,6 @@ Indoor environments typically contain:
 
 Human bodies can attenuate BLE signals by approximately 3–10 dB, which explains sudden RSSI drops.
 
----
 
 ### 4.3 Environmental Noise and Interference
 
@@ -131,7 +121,6 @@ Interference can cause:
 - Packet loss  
 - Temporary signal degradation  
 
----
 
 ## 5. Security and Privacy Considerations
 
@@ -145,8 +134,6 @@ BLE is widely used in:
 - Asset tracking tags  
 - Smartphones (background advertising)  
 
----
-
 ### 5.2 Device Tracking Risk
 
 Even when device names are hidden, tracking may still be possible through:
@@ -157,7 +144,6 @@ Even when device names are hidden, tracking may still be possible through:
 
 This enables potential long-term monitoring of device presence.
 
----
 
 ### 5.3 Identifier Exposure
 
@@ -168,7 +154,6 @@ If a device uses a static public MAC address, attackers can:
 
 Although modern devices often use randomized MAC addresses, privacy risks still exist.
 
----
 
 ### 5.4 Writeable Generic Attribute Profile (GATT)
 
@@ -185,7 +170,6 @@ Writeable characteristics may allow:
 - Command injection  
 - Device misuse  
 
----
 
 ## 6. Overall Conclusion
 
