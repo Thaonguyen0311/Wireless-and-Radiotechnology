@@ -24,8 +24,8 @@ Frequency Band: 2.4 GHz
 ### 3.2 Network Topology Observation
 The IP address range (192.168.2.0/24) indicates a private IPv4 local area network. The default gateway (192.168.2.1) corresponds to the wireless router. DHCP is enabled, automatically assigning IP addresses to connected devices.
 ## 4. Wireless Environment Analysis
-<img width="922" height="2048" alt="image" src="https://github.com/user-attachments/assets/eb8b0306-9984-437e-a73d-152a53161162" />
-<img width="922" height="2048" alt="image" src="https://github.com/user-attachments/assets/3a3e294e-f884-4a7f-9c4c-6a95d95ac51e" />
+<img width="300"  alt="image" src="https://github.com/user-attachments/assets/eb8b0306-9984-437e-a73d-152a53161162" />
+<img width="300"  alt="image" src="https://github.com/user-attachments/assets/3a3e294e-f884-4a7f-9c4c-6a95d95ac51e" />
 ### 4.1 Signal Strength
 Measured signal strength of the connected network:
 •	−50 dBm
