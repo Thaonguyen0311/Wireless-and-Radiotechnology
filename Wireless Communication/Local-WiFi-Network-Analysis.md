@@ -26,6 +26,7 @@ The IP address range (192.168.2.0/24) indicates a private IPv4 local area networ
 ## 4. Wireless Environment Analysis
 <img width="300"  src="https://github.com/user-attachments/assets/eb8b0306-9984-437e-a73d-152a53161162" />
 <img width="300"  src="https://github.com/user-attachments/assets/3a3e294e-f884-4a7f-9c4c-6a95d95ac51e" />
+
 ### 4.1 Signal Strength
 Measured signal strength of the connected network:
 •	−50 dBm
