@@ -4,9 +4,8 @@
 <img width="1377" height="959" alt="Screenshot 2026-03-25 125242" src="https://github.com/user-attachments/assets/13b385cf-2472-43e2-ba8a-4031bf2d2cc3" />
 This project demonstrates a simple real-time IoT monitoring system.
 Temperature data is sent from one laptop (publisher) to another laptop (subscriber) using socket communication, then forwarded to an MQTT broker, and finally visualized in Grafana.
+
 ## 2. Data Flow
-
-
 
 <img width="734" height="608" alt="image" src="https://github.com/user-att![Uploading Screenshot 2026-03-25 125242.png…]()
 achments/assets/a053d5f9-f88f-45ad-b1bc-4debfabaeeb2" />
