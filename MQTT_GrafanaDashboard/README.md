@@ -1,5 +1,7 @@
 # IoT Temperature Monitoring System using MQTT and Grafana
 ## 1. System Overview
+<img width="1932" height="1000" alt="image" src="https://github.com/user-attachments/assets/2b26b44f-e321-4728-a638-48242a8973eb" />
+
 
 <img width="1377" height="959" alt="Screenshot 2026-03-25 125242" src="https://github.com/user-attachments/assets/13b385cf-2472-43e2-ba8a-4031bf2d2cc3" />
 This project demonstrates a simple real-time IoT monitoring system.
