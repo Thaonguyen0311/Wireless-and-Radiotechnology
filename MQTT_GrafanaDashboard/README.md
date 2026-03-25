@@ -7,8 +7,7 @@ Temperature data is sent from one laptop (publisher) to another laptop (subscrib
 
 ## 2. Data Flow
 
-<img width="734" height="608" alt="image" src="https://github.com/user-att![Uploading Screenshot 2026-03-25 125242.png…]()
-achments/assets/a053d5f9-f88f-45ad-b1bc-4debfabaeeb2" />
+<img width="734" height="608" alt="Screenshot 2026-03-25 125339" src="https://github.com/user-attachments/assets/8141751a-78a2-4782-8992-a1114c421225" />
 
 ## 3. MQTT Configuration
 Broker used: broker.emqx.io
